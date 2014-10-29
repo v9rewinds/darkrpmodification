@@ -17,7 +17,21 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add jobs under the following line:
 ---------------------------------------------------------------------------*/
-
+-- Code generated with help from: TCB's DarkRP 2.5 <span style="height: 13px;" id="n82933_2" class="n82933">Tools</span> | www.<span style="height: 13px;" id="n82933_1" class="n82933">thecodingbeast</span>.com
+TEAM_JUGGERNAUT = DarkRP.createJob("Juggernaut", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/player/combine_soldier.mdl"},
+    description = [[Help Police And Protect The City]],
+    weapons = {"weapon_ak472","weapon_m249","weapon_acr"},
+    command = "",
+    max = 2,
+    salary = 500,
+    admin = 1,
+    vote = true,
+    hasLicense = true,
+     
+    -- Insert customCheck here if you have one and want one.
+}
 
 
 
